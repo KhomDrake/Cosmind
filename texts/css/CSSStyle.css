@@ -1,0 +1,99 @@
+/* para acessar um id especifico, usar a tag+#+nomeDoID */
+
+.text h1{
+  font-size: 40px;
+  margin: 0px 0px 0px 250px;
+  text-align: left;
+  color: #ff6600;
+}
+
+.text h3{
+  font-size: 12px;
+  margin-left: 270px;
+  /* margin-left: 280px; */
+}
+
+.text p{
+  color: #000000;
+  margin: 20px 250px 5px 250px;
+  text-align: justify;
+  display: block;
+  font-size: 16px;
+}
+
+.text{
+  margin: 5px;
+  border: 1px solid blue;
+  /* background-color: #dddbda; */
+}
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+header{
+  background:#157696FF;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight{
+  color:#FF570BFF;
+  font-weight:bold;
+}
+
+footer{
+  padding:20px;
+  margin-top:0px;
+  color:#FF570BFF;
+  background-color:#157696FF;
+  text-align: center;
+}
+
+/* Phone */
+@media(max-width: 700px) {
+
+  .text p{
+    color: #000000;
+    margin: 5px 5px 5px 5px;
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .text h1{
+    margin: 0px 0px 0px 20px;
+  }
+
+  .text h3{
+    margin-left: 60px;
+  }
+}

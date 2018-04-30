@@ -1,0 +1,190 @@
+/* para acessar um id especifico, usar a tag+#+nomeDoID */
+
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+.services h1{
+  font-size: 40px;
+  margin: 0px 0px 0px 20px;
+  text-align: left;
+}
+
+.services h3{
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+.services a{
+  text-decoration: none;
+  color: #ff6600;
+}
+
+.services p{
+  color: #000000;
+  margin: 0px 0px 0px 20px;
+  text-align: justify;
+}
+
+.services{
+  margin: 5px;
+  border: 1px solid blue;
+  /* background-color: #dddbda; */
+}
+
+.text h1{
+  font-size: 40px;
+  margin: 0px 0px 0px 250px;
+  text-align: left;
+  color: #ff6600;
+}
+
+.text h3{
+  font-size: 12px;
+  margin-left: 280px;
+}
+
+.text #te {
+    /* border: 1px solid blue; */
+    /* background-color: rgba(0,0,255, 0.2); */
+}
+
+.text p{
+  color: #000000;
+  margin: 20px 20px 5px 250px;
+  text-align: justify;
+  display: block;
+  width: 1400px;
+  font-size: 16px;
+}
+
+.text{
+  margin: 5px;
+  border: 1px solid blue;
+  /* background-color: #dddbda; */
+}
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+header{
+  background:#157696FF;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#FF570BFF;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  /* font-weight:lighter; */
+}
+
+#showcase{
+  min-height:755px;
+  background:url('../img/backGround.jpg') no-repeat 0 0px;
+  text-align:center;
+  color: #FF570BFF;
+}
+
+#showcase h1{
+  margin-top:250px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+#boxes{
+  margin-bottom:10px;
+  /* background-color: #DADADAFF; */
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:400px;
+  height: 200px;
+}
+
+footer{
+  padding:20px;
+  margin-top:0px;
+  color:#FF570BFF;
+  background-color:#157696FF;
+  text-align: center;
+}
+
+/* Phone */
+@media(max-width: 700px) {
+  header #branding,
+  header nav,
+  header nav li
+  {
+     float: none;
+     text-align: center;
+     width: 100%;
+  }
+
+  #showcase h1{
+    margin-top:150px;
+    font-size:55px;
+    margin-bottom:10px;
+  }
+
+  .services p{
+    color: #000000;
+    margin-right: 7px;
+    text-align: justify;
+  }
+}
